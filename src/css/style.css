@@ -1,0 +1,215 @@
+body {
+    background-color: #bbc5e6;
+}
+
+.btn-back {
+    background-color: #3754BB;
+    border: none;
+    position: absolute;
+    left: 1rem;
+    top: .8rem;
+
+}
+
+.header-class {
+    background-color: #3754BB;
+    height: 3.37rem;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.button-setting {
+    outline: none;
+    background-color: #3754BB;
+    border: none;
+    position: absolute;
+    top: .7rem;
+    right: 1rem;
+
+
+}
+
+.fa-bars,
+.fa-arrow-left {
+    font-size: 1.4rem;
+}
+
+.task-div {
+    width: 24.7rem;
+    display: flex;
+    height: 3rem;
+    background-color: #8D9DD4;
+    margin-top: 1rem;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+}
+
+.vanish {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+.vanish-button {
+    display: none;
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.task-name {
+    width: 17rem;
+    height: 2rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: .8rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+
+}
+
+.due-date {
+    font-weight: 500;
+    margin-top: 1rem;
+    width: 6rem;
+    text-align: end;
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+
+.checkbox {
+    margin-right: 1rem;
+    border-radius: 4px;
+    height: 3rem;
+    margin-top: .05rem;
+    transform: scale(1.5);
+    box-shadow: 2px 2px 1px rgb(120, 120, 146);
+}
+
+.due-check {
+    display: flex;
+    width: 10rem;
+    justify-content: space-evenly;
+
+}
+
+.app-div-1 {
+    /* border: 2px solid black; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.afterClick {
+    opacity: 0.4;
+    cursor: none;
+}
+
+.fortask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-for-popup {
+    outline: none;
+    border: none;
+    width: 25rem;
+    margin: 0 auto;
+    height: 3rem;
+    box-shadow: 5px 5px 3px rgb(161, 154, 154);
+    margin-top: 1.2rem;
+    background-color: #3754BB;
+    font-size: 1.3rem;
+    color: beige;
+    border-radius: 5px;
+}
+
+.btn-for-popup:active {
+    opacity: .8;
+}
+
+.div-for-task {
+    height: 30rem;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.root2 {
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-div {
+    width: 20.18rem;
+    height: 8.125rem;
+    background-color: #8D9DD4;
+    box-shadow: 3px 3px 15px #7d7d80;
+    border-radius: 5px;
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(1.1);
+
+}
+
+.input1,
+.input2 {
+    background-color: #8D9DD4;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(87, 84, 84);
+    width: 17rem;
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+    padding-bottom: .2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+
+
+.add-task-btn {
+
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 20.18rem;
+    height: 1.6rem;
+    margin-top: .5rem;
+    background-color: #3754BB;
+    color: antiquewhite;
+    font-size: 1rem;
+    height: 2rem;
+    transform: font-size 1s ease;
+    box-shadow: 5px 5px 5px #374470;
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.add-task-btn:active {
+    font-size: 1.05rem;
+    background-color: #5067b9;
+}
