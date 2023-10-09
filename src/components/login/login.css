@@ -1,0 +1,92 @@
+.login-main-div {
+    display: absolute;
+    max-height: 1000px;
+}
+
+.img-user-pass {
+    display: flex;
+    position: relative;
+    top: -45rem;
+    margin: 0 auto;
+    max-width: 40.8125rem;
+    height: 29.25rem;
+    border-radius: 0.4375rem;
+    background: #BBC5E6;
+    box-shadow: 8px 8px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img {
+    position: relative;
+    top: 5rem;
+    left: 4rem;
+}
+
+.vertical-line {
+    position: relative;
+    left: 6.5rem;
+    height: 19.3rem;
+    width: 3px;
+    background-color: #929292;
+    border-radius: 10px;
+    top: 5rem;
+}
+
+.user-details h1 {
+    position: relative;
+    left: 13rem;
+    top: 2rem;
+    font-family: karla;
+    font-weight: bold;
+    color: #3754BB;
+}
+
+.input-elements {
+    position: relative;
+    left: 8rem;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-elements input {
+    background-color: #BBC5E6;
+    border: 0 solid grey;
+    outline: none;
+    font-family: Karla;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1.3rem;
+    margin-left: .6rem;
+}
+
+.input-elements button {
+    width: 6rem;
+    height: 2.6875rem;
+    border-radius: 0.4375rem;
+    background: #3754BB;
+    color: #BBC5E6;
+    font-family: Karla;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.0825rem;
+    border: 0 solid grey;
+  margin-left: auto;
+}
+.input-elements button:active{
+    transform: scale(1.02);
+}
+
+.input-elements img {
+    height: 20px;
+    width: 20px;
+}
+.sign-up{
+    color: #3754BB;
+    cursor: pointer;
+    margin-left: .5rem;
+    text-decoration: none;
+}
+.input-name{
+    margin-left: 2rem;
+}
