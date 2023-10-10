@@ -39,7 +39,7 @@ const MacbookAir = () => {
             const userCredential = await signInWithEmailAndPassword(auth, email, password);
             console.log(userCredential);
 
-            // After successful login, navigate to the "signup/TodoApp" route
+          
             navigate("/signup/TodoApp");
         } catch (error) {
             console.error(error);
